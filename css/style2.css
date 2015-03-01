@@ -4,17 +4,14 @@ a:visited { color: #61C; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { color: #c00; outline: 0; }
 body { font-size: 14px; line-height: 1.61; font-family: 'Open Sans', sans-serif; color: #333; max-width: 45em; margin: 0 auto;}
-header { padding: 0 0.5em; color: #C90B0B; }
+header { padding: 0 0.5em; color: #363fff; }
 header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
 header p span { font-size: 0.8em;}
 header img { border-radius: 40px; float: left; }
-ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
-.content { padding: 1em 1em; }
-.content li { list-style-type: none; font-size: 1.1em; }
-li p { font-size: 0.9em; font-style: italic; }
+.content { padding: 1em; }
 .hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
-li img { float:left; padding-right: 1em; }
+.img-responsive { margin: 0 auto;}
 footer { padding: 0 0.5em; border-top: 1px solid #ccc; }
 footer span { float: right; font-style: italic; }
 @font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
-@media only screen and (max-width: 480px) { body { font-size: 12px;} header p { padding-left: 4.5em;} }
+@media only screen and (max-width: 480px) { body { font-size: 12px;} header p { padding-left: 4.5em;} img{ max-width: 350px;}}

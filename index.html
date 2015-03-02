@@ -6,9 +6,10 @@
     <meta name="description" content="Udacity Project#4">
     <meta name="author" content="Vladimir Yussupov">
     <title>Udacity Project#4</title>
-	
+	<script async src="http://www.google-analytics.com/analytics.js"></script>
 	<style>
-	body{font:14px/1.61 'Open Sans', sans-serif;color:#333;max-width:45em;margin:0 auto;}header{color:#363fff;padding:0 .5em;}header p{font-size:1.5em;font-weight:700;padding-left:4em;}header p span{font-size:.8em;}header img{border-radius:40px;float:left;}ul,ol{margin:1em 0;padding:0 0 0 20px;}.content{padding:1em;}.content li{list-style-type:none;font-size:1.1em;}li p{font-size:.9em;font-style:italic;}.hero{background-color:#f8f8f8;font-size:1.2em;border-bottom:1px solid #ccc;border-top:1px solid #ccc;padding:2em;}li img{float:left;padding-right:1em;}footer{border-top:1px solid #ccc;padding:0 .5em;}footer span{float:right;font-style:italic;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'), local(OpenSans), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format(woff2), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format(woff);}</style>
+	body{font:14px/1.61 'Open Sans',sans-serif;color:#333;max-width:45em;margin:0 auto}header{padding:0 .5em;color:#363fff}header p{font-size:1.5em;font-weight:700;padding-left:4em}header p span{font-size:.8em}header img{border-radius:40px;float:left}ol,ul{margin:1em 0;padding:0 0 0 20px}.content{padding:1em}.content li{list-style-type:none;font-size:1.1em}li p{font-size:.9em;font-style:italic}.hero{padding:2em;background-color:#f8f8f8;font-size:1.2em;border-bottom:1px solid #ccc;border-top:1px solid #ccc}li img{float:left;padding-right:1em}footer{padding:0 .5em;border-top:1px solid #ccc}footer span{float:right;font-style:italic}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'),url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff')}
+	</style>
 	<link href="css/print.css" rel="stylesheet" media="print">
   </head>
   <body>
@@ -25,15 +26,15 @@
             <a href="project1.html">HTML & CSS mockup project</a>
             <p>Udacity orange mug mockup</p>
           </li>
-          <li><img src="" data-echo="img/project2.jpg" width="100px" height="62px">
+          <li><img src="img/project2.jpg" width="100px" height="62px">
             <a href="http://v-yussupov.github.io/frontend-nanodegree-resume/" target="_blank">Interactive protfolio</a>
             <p>Useful JavaScript technics</p>
           </li>
-          <li><img src="" data-echo="img/project3.jpg" width="100px" height="62px">
+          <li><img src="img/project3.jpg" width="100px" height="62px">
             <a href="http://v-yussupov.github.io/frontend-nanodegree-arcade-game-master/" target="_blank">Simple HTML5 frogger game</a>
             <p>Interersting and positive experience of HTML5 canvas usage</p>
           </li>
-          <li><img src="" data-echo="img/pizzeria_small.jpg" width="100px" height="62px">
+          <li><img src="img/pizzeria_small.jpg" width="100px" height="62px">
             <a href="views/pizza.html" target="_blank">Cam's Pizzeria</a>
             <p>Who wants a re-performant pizza?</p>
           </li>
@@ -45,21 +46,7 @@
     </script>
 	<script>
 		function logCRP() {var t = window.performance.timing,dcl = t.domContentLoadedEventStart - t.domLoading,complete = t.domComplete - t.domLoading;var stats = document.getElementById("crp-stats");stats.textContent = 'DCL: ' + dcl + 'ms, onload: ' + complete + 'ms';}window.addEventListener("load", function() {logCRP();});
-	</script>
-	<script src="js/echo.min.js"></script>
-	<script>
-	
-    echo.init({
-      offset: 100,
-      throttle: 250,
-      unload: false,
-      callback: function (element, op) {
-        console.log(element, 'has been', op + 'ed')
-      }
-    });
-    
-	</script>
-	<script async src="http://www.google-analytics.com/analytics.js"></script>	
+	</script>	
 	<script>
 		(function(w,g){w['GoogleAnalyticsObject']=g;w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
 		ga('create', 'UA-XXXX-Y');ga('send', 'pageview');

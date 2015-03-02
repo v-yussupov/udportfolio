@@ -10,7 +10,7 @@ header p span { font-size: 0.8em;}
 header img { border-radius: 40px; float: left; }
 .content { padding: 1em; }
 .hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
-.img-responsive { margin: 0 auto;}
+.img-responsive { display: block; margin: 0 auto;}
 footer { padding: 0 0.5em; border-top: 1px solid #ccc; }
 footer span { float: right; font-style: italic; }
 @font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
